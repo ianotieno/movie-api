@@ -18,7 +18,7 @@ body {
 }
 
 .movie-poster {
-   width: 80%;
+   width: 100%;
    height: 40%;
 }
 
@@ -32,6 +32,15 @@ body {
 #films {
    list-style: none;
 }
+#films .film {
+   cursor: pointer;
+   padding: 10px;
+   border-bottom: 1px solid #ddd;
+ }
+ 
+ #films .film:hover {
+   background-color: #ddd;
+ }
 
 .film.item {
    padding: 1em;
