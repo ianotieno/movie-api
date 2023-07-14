@@ -3,6 +3,15 @@ body {
    font-family: Arial, sans-serif;
 }
 
+#main-title {
+  text-align: center;
+  padding-top: 5px;
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  color: #000;
+}
+
 .container {
    display: flex;
    justify-content: space-around;
@@ -19,7 +28,8 @@ body {
 
 .movie-poster {
    width: 100%;
-   height: 40%;
+   height: 30%;
+   
 }
 
 .movie-title, .movie-runtime, .movie-showtime, .available-tickets, .movie-description {
